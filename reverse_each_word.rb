@@ -8,7 +8,7 @@ def reverse_each_word(sentence1)
   #   sentence_pluse = new_array.join(" ")
   # return sentence_pluse
   
-new_sentence2 =  sentence1.split(" ")
+
    sentence1.split(" ").collect do |word|
    word.reverse
     end.join(" ")
