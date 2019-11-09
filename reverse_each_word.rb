@@ -3,15 +3,14 @@ def reverse_each_word(sentence1)
  #new_sentence = sentence1.split(" ")
  # new_sentence.each do |word|
   #new_array << word.reverse
-  end # this end matches with the .each
+  # end # this end matches with the .each
     
-     sentence_pluse = new_array.join(" ")
-  return sentence_pluse
+  #   sentence_pluse = new_array.join(" ")
+  # return sentence_pluse
   
-new_sentence2 =  sentence2_pluse.split(" ")
-new_array2 = []
+new_sentence2 =  sentence1.split(" ")
  sentence2_pluse.collect do |word|
-   new_array2 << word.reverse
+   word.reverse
     end
    
     sentence2_pluse = array2.join(" ")
