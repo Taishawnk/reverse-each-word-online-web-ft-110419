@@ -12,7 +12,5 @@ new_sentence2 =  sentence1.split(" ")
  sentence2_pluse = new_sentence2.collect do |word|
    word.reverse
     end
-   
-    sentence2_pluse = array2.join(" ")
- return sentence2_pluse
+ return sentence2_pluse.join(" ")
  end
