@@ -9,7 +9,7 @@ def reverse_each_word(sentence1)
   # return sentence_pluse
   
 new_sentence2 =  sentence1.split(" ")
-  new_sentence2.collect do |word|
+   sentence1.split(" ").collect do |word|
    word.reverse
     end.join(" ")
 
